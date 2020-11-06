@@ -1,0 +1,104 @@
+/** Informacion **/
+.integrantes
+{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.integrantes .integrantes-title
+{
+    width: 50%;
+    margin:auto;
+    text-align: center;
+}
+
+.integrantes .integrantes-title h2
+{
+    font-size: 50px;
+    font-weight: normal;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.integrantes .integrantes-title hr
+{
+    width: 60%;
+    height: 2px;
+    margin:auto;
+    background: black;
+}
+
+.integrantes .box-integrantes
+{
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.integrantes .box-integrantes .card-integrantes
+{
+    width: 45%;
+    margin: 20px;
+}
+
+.integrantes .box-integrantes .card-integrantes .card-img
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.integrantes .box-integrantes .card-integrantes .card-img img
+{
+    width: 350px;
+    height: 350px;
+    margin-top: -70px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.integrantes .box-integrantes .card-integrantes .integrantes-text
+{
+    border: 2px solid rgb(0, 204, 255);
+    padding:20px;
+    border-radius: 20px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.integrantes .box-integrantes .card-integrantes .integrantes-text h4
+{
+    font-size: 30px;
+    font-weight: 400;
+    color:  rgb(0, 204, 255);
+    text-align: center;
+    margin-bottom: 10px;
+    transition: 0.1s;
+}
+
+.integrantes .box-integrantes .card-integrantes .integrantes-text p
+{
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+}
+
+.Integrantes .box-integrantes .card-integrantes .integrantes-text:hover
+{
+    border: 2px solid blue;
+}
+
+.integrantes .box-integrantes .card-integrantes .integrantes-text:hover h4
+{
+    color: blue;
+}
+
+@media only screen and (max-width:890px){
+    .integrantes .box-integrantes .card-integrantes .card-img img{width: 200px; height: 200px;}
+    .integrantes .box-integrantes .card-integrantes{width: 100%;}
+    .integrantes .box-integrantes .card-integrantes .integrantes-text h4{font-size: 25px;}
+    .integrantes .box-integrantes .card-integrantes .integrantes-text p{font-size: 17px; line-height: 35px;}}
