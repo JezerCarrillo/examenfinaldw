@@ -21,7 +21,8 @@
 
     const db = firestore.collection("examen");
 
-    enviar.addEventListener("Click", () =>{
+    enviar.addEventListener('submit', (e) =>{
+        e.preventDefault();
         let userNameInput = nombre.value;
         let userEmailnput = correo.value;
         let userMessageInput = mensaje.value;
