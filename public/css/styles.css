@@ -43,7 +43,18 @@
     color: black;
  }
  
- 
+ .signouts{
+    top: 35px;
+    right: 25px;
+    border-width: 10vh 100vw 0 0;
+    position: absolute;
+    text-decoration: none;
+ }
+
+ .signouts:hover{
+    color:rgb(255, 0, 0);
+ }
+
  /** Skew **/
  .skew-abajo{
      position: absolute;
